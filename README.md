@@ -1,4 +1,4 @@
-# Laravel lang
+# WIP: Laravel lang
 
 Analyze files and look for unused translations, suggest removal. Can also be used to translate missing translations and show statistics of coverage.
 
