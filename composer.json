@@ -1,0 +1,30 @@
+{
+  "name": "minutemailer/laravel-lang",
+  "description": "Translation tools for Laravel",
+  "keywords": ["laravel", "translation", "lang"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tobias Bleckert",
+      "email": "tobias@minutemailer.com"
+    },
+    {
+      "name": "Carlos Egusquiza Arias",
+      "email": "carlos@minutemailer.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/console": "5.5.x|5.6.x|5.7.x|5.8.x"
+  },
+  "autoload": {
+    "psr-4": {
+      "Minutemailer\\Lang\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require-dev": {
+    "laravel/framework": "5.7.x"
+  }
+}
